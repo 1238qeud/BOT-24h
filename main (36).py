@@ -38,4 +38,3 @@ token = os.getenv("TOKEN")
 if token is None:
     print("Error: Discord bot token not found. Please set the 'TOKEN' environment variable.")
     exit(1)  # Or handle the error in a different way
-bot.run(token)
